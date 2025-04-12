@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<body>
+  <h2> Image Gallery </h2>
+    <div class="gallery">
+        <img src="Images/andrew-sterling-yPCpJSG-uzE-unsplash.jpg"  onclick="openLightbox(this)">
+        <img src="Images/brandon-jean-o1Bxf1tX9t0-unsplash.jpg"  onclick="openLightbox(this)">
+        <img src="Images/brendan-stephens-LSRBZSNMeAE-unsplash.jpg"  onclick="openLightbox(this)">
+        <img src="Images/cody-lannom-GH5J0VSwTZo-unsplash.jpg"  onclick="openLightbox(this)">
+        <img src="Images/isaac-owens-SmnMtM8UgCY-unsplash.jpg"  onclick="openLightbox(this)">
+        <img src="Images/josh-withers-90pH0ly9MRI-unsplash.jpg"  onclick="openLightbox(this)">
+        <img src="Images/karsten-winegeart-uiB69FfQG00-unsplash.jpg"  onclick="openLightbox(this)">
+        <img src="Images/ryunosuke-kikuno-L3NT6ty0LkE-unsplash.jpg" onclick="openLightbox(this)">
+    </div>
+
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-img">
+    </div>
+
+
+</body>
+</html>
